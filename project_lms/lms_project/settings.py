@@ -149,13 +149,6 @@ LOGGING = {
 
 FRONTEND_URL = "http://localhost:5173"
 
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "clementxen999@gmail.com"
-EMAIL_HOST_PASSWORD = "dcruoqsnfgjrwwad"
-
 
 CSRF_COOKIE_NAME = "csrftoken"
 CSRF_COOKIE_HTTPONLY = False
